@@ -1,0 +1,90 @@
+@use '../custom' as *;
+
+.project-container{
+    margin-bottom: 3em;
+}
+
+.portfolio-header{
+    padding-bottom: 1rem;
+}
+
+.portfolio-desc {
+    font-size: 1.5em;
+    line-height: 2rem;
+}
+
+.project-section{
+    background-color: #0b0b0b;
+    padding: 5em 0; 
+}
+.project-container{
+    
+    width: 100%;
+}
+
+.githublink{
+    margin: 0%;
+    padding-bottom: 1rem;
+}
+
+.portfolio-box{
+    position: relative;
+    width: 100%;
+    height: 18.5rem;
+    overflow: hidden;
+    margin-bottom: 1.2rem;
+    border-top: 0.5rem solid rgba($secondary, 0.25);
+    img{
+        width: 100%;
+        height: 100%;
+    
+    }
+    .portfolio-info{
+        background-color: rgba($secondary, 0.25);
+        width: 100%;
+        height: 100%;
+        position:absolute;
+        top: 0%;
+        opacity: 0;
+        visibility: hidden;
+
+
+        .caption{
+            text-align: center;
+            color:white;
+            margin: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            
+            h4{
+                text-transform: uppercase;
+                display: block;
+            }
+        }
+    } &:hover{
+       .portfolio-info{
+        opacity: 1;
+        visibility: visible;
+        cursor: pointer;
+        transition-duration: 1000ms;
+        transition-property: all;
+    
+       }
+    }
+}
+
+.copy-icon {
+    cursor: pointer;
+    transition: color 0.3s ease;
+  
+    &:hover {
+      color: #fd7e14; 
+    }
+  }
+
+
+    // transition-duration: 1000ms;
+    // transition-property: all;

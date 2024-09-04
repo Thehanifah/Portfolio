@@ -1,0 +1,57 @@
+@use '../custom' as *;
+
+.btn{
+    padding: 0.8em 2rem;
+    border: 1px solid $white;
+    color: $white;
+    transition: 0.8s;
+}
+
+
+.btn-contact-2:hover, .btn-contact:hover{
+background-color: $secondary;
+border: 1px solid $secondary;
+color: $white;
+}
+
+.btn-CTA{
+    padding: 0.8em 0.2em;
+    width: 10em;
+    border: 1px solid $secondary;
+    background-color: $secondary;
+    color: $black;
+    margin: auto;
+    transition: 0.8s;
+}
+
+.btn-CTA:hover{
+    color: white;
+    border: 1px solid white;
+}
+
+.btn-3{
+    position: relative;
+    padding: 0.9375rem 4.375rem 0.9375rem 1.25rem;
+    font-family: "Roboto", sans-serif; 
+    transition: 0.8s;
+    span{
+        position: absolute;
+        // background-color: $primary;
+        width: 2.5rem;
+        height: 2.5rem;
+        top: 50%;
+        right: 5px;
+        transform: translateY(-50%);
+        i{
+        font-size: 1rem;
+        line-height: 2.5rem;
+
+        }
+        
+    }
+}
+
+.btn-3:hover{
+    border: 1px solid $gray-600;
+    color: $white;
+}

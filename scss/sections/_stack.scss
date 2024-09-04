@@ -1,0 +1,53 @@
+@use '../custom' as *;
+
+.companies{
+margin-top: 5em;
+padding: 0 0 5rem 0;
+
+    
+    &__logo-box {
+        max-width: 100%;
+        height: 3em;
+        text-align: center;
+        position: relative;
+        padding: 0.5rem;
+        margin: 1rem;
+               
+
+    img {
+    height: 100%;
+    transition: filter 0.3s ease;
+    cursor: pointer;
+    }
+    }
+    }
+
+    .col-md-4{
+        border: 1px solid grey;
+    }
+
+
+.heading-line::before {
+
+width: 10rem;
+height: 0.1rem;
+display: block;
+background-color: $secondary;
+content: "";
+margin:0 auto;
+
+}
+
+.heading-line::after {
+
+    width: 2rem;
+    height: 0.2rem;
+    display: block;
+    background-color: $secondary;
+    content: "";
+    padding-top: 0.5rem;
+    margin:0 auto;
+    margin-bottom: 1rem;
+    }
+
+

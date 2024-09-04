@@ -1,0 +1,62 @@
+@use '../custom' as *;
+
+*{
+    font-family: "Roboto", sans-serif;   
+}
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.display-2{
+margin-top: 0.5rem;
+text-transform: capitalize;
+font-family: "Roboto";
+font-weight: 700;
+font-size: 12em;
+line-height: 1em;
+max-width: 70%;
+max-height: fit-content;
+&--intro{
+    color: $white;
+    font-size: 30em;
+    
+}
+
+&--description{
+    font-size: 1rem;
+    display: block;
+    color:$gray-600;
+    font-weight: 400;
+    line-height: 1.5rem; 
+    margin-top: 2em;
+    margin-bottom: 2em;
+    }
+
+    @include media-breakpoint-down(lg){
+        font-size:5em;
+        max-width: 90%;
+    }
+}
+
+.display-3{
+
+&--description{
+color:$gray-600;
+font-weight: 400;
+line-height: 1.5rem;
+}
+
+ }
+
+ .portfolio-header{
+    color: $secondary;
+    margin: 0%;
+    font-weight: 400;
+ }
+
+ .portfolio-desc{
+    color: $white;
+
+ }

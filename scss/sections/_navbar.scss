@@ -1,0 +1,25 @@
+@use '../custom' as *;
+.navbarlogo{
+    margin-inline-end: 7em;
+}
+
+.navBar{
+    margin-top: 1em;
+    li:hover{
+        color: $gray-500!important;
+
+        a:hover{
+        color: $gray-500 !important;  
+        }
+    }
+}
+
+.btn-contact{
+    @include media-breakpoint-down(lg){
+        display: none;
+    }
+}
+
+// .nav-item > .nav-link:hover{
+// color: $black;
+// }
