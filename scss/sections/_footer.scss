@@ -4,22 +4,22 @@
 }
 @media (max-width: 1200px) {
     .custom-responsive-text {
-        font-size: 0.8rem !important; /* Large devices (desktops, 1200px and down) */
+        font-size: 0.9rem !important; /* Large devices (desktops, 1200px and down) */
     }
 }
 @media (max-width: 992px) {
     .custom-responsive-text {
-        font-size: 0.6rem !important; /* Medium devices (tablets, 992px and down) */
+        font-size: 0.9rem !important; /* Medium devices (tablets, 992px and down) */
     }
 }
 @media (max-width: 768px) {
     .custom-responsive-text {
-        font-size: 0.4rem !important; /* Small devices (landscape phones, 768px and down) */
+        font-size: 0.8rem !important; /* Small devices (landscape phones, 768px and down) */
     }
 }
 @media (max-width: 576px) {
     .custom-responsive-text {
-        font-size: 0.4rem !important; /* Extra small devices (portrait phones, 576px and down) */
+        font-size: 0.7 !important; /* Extra small devices (portrait phones, 576px and down) */
     }
 }
 
