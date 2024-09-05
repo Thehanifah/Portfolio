@@ -32,6 +32,17 @@ document.getElementById('btn-CTA').addEventListener('click', function(){
     window.location.href = mailtoLink;
 });
 
+document.getElementById('btn-CTA1').addEventListener('click', function(){
+    const email = 'hanifahali2015@yahoo.com';
+    const subject = 'Front-end Engineer Interview';
+    const body = 'Hello Hanifah';
+
+   
+    const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    window.location.href = mailtoLink;
+});
+
 document.getElementById('Gmail').addEventListener('click', function(){
     const email = 'hanifahali2015@gmail.com';
     const subject = 'Front-end Engineer Interview';
@@ -45,7 +56,10 @@ document.getElementById('Gmail').addEventListener('click', function(){
 
 
 document.getElementById('resume').addEventListener('click', function() {
-    window.open('https://drive.google.com/file/d/1ng2tiliPXmOWCwNk21IMw5eciykWIIrL/view?usp=sharing');
+    window.open('https://drive.google.com/file/d/110uAUyNSmU73AWmr47qMyqBoPvatccHm/view?usp=sharing');
+});
+document.getElementById('resume1').addEventListener('click', function() {
+    window.open('https://drive.google.com/file/d/110uAUyNSmU73AWmr47qMyqBoPvatccHm/view?usp=sharing');
 });
 
 document.getElementById('Github').addEventListener('click', function() {
