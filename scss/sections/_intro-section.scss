@@ -10,14 +10,14 @@
         padding: 3rem 0 3rem 0;   
     }
 }
-.hero-section{
-        background-image: url(/images/Background-Hero.png);
+// .hero-section{
+//         background-image: url(/images/laptop.jpg);
 
-        @include media-breakpoint-down(xl){
-            background-image: url(/images/Background-hero-02.png);
-            background-repeat: no-repeat;
-        }
-}
+//         @include media-breakpoint-down(xl){
+//             background-image: url(/images/Background-hero-02.png);
+//             background-repeat: no-repeat;
+//         }
+// }
 // .btn-contact-2{
 
 // }

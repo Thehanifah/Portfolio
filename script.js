@@ -32,8 +32,22 @@ document.getElementById('btn-CTA').addEventListener('click', function(){
     window.location.href = mailtoLink;
 });
 
+document.getElementById('Gmail').addEventListener('click', function(){
+    const email = 'hanifahali2015@gmail.com';
+    const subject = 'Front-end Engineer Interview';
+    const body = 'Hello Hanifah';
+
+   
+    const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    window.location.href = mailtoLink;
+});
+
 
 document.getElementById('resume').addEventListener('click', function() {
     window.open('https://drive.google.com/file/d/1ng2tiliPXmOWCwNk21IMw5eciykWIIrL/view?usp=sharing');
 });
 
+document.getElementById('Github').addEventListener('click', function() {
+    window.open('https://github.com/Thehanifah?tab=repositories');
+});
