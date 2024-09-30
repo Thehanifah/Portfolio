@@ -4,3 +4,23 @@
     border: 1px solid #151515;
 }
 
+
+.contact-msg{
+    margin-top: 4em;
+}
+
+#fs-frm-inputs input,
+#fs-frm-inputs textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #ccc; /* Change the color and width as needed */
+  background-color: transparent;
+  border-radius: 0; /* Ensure there's no rounding on the corners */
+  color: white;
+  caret-color: $secondary;
+}
+
+#fs-frm-inputs input::placeholder,
+#fs-frm-inputs textarea::placeholder{
+    color: white;
+}

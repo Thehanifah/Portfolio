@@ -5,6 +5,7 @@
 
 .navBar{
     margin-top: 1em;
+
     li:hover{
         color: $gray-500!important;
 
@@ -20,6 +21,10 @@
     }
 }
 
+.getIntouch{
+    text-decoration: none;
+    
+}
 // .nav-item > .nav-link:hover{
 // color: $black;
 // }

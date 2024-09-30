@@ -11867,6 +11867,21 @@ textarea.form-control-lg {
   transition: 0.8s;
 }
 
+.btn-Submit {
+  padding: 0.8em 0.2em;
+  width: 10em;
+  border: 1px solid #fd7e14;
+  background-color: #fd7e14;
+  color: #fff;
+  margin: auto;
+  transition: 0.8s;
+}
+
+.btn-Submit:hover {
+  color: white;
+  border: 1px solid white;
+}
+
 .btn-CTA:hover {
   color: white;
   border: 1px solid white;
@@ -11971,6 +11986,10 @@ textarea.form-control-lg {
   }
 }
 
+.getIntouch {
+  text-decoration: none;
+}
+
 .intro-section {
   padding: 10rem 0 3rem 0;
   width: 100%;
@@ -11985,6 +12004,26 @@ textarea.form-control-lg {
 
 .footer-line {
   border: 1px solid #151515;
+}
+
+.contact-msg {
+  margin-top: 4em;
+}
+
+#fs-frm-inputs input,
+#fs-frm-inputs textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #ccc; /* Change the color and width as needed */
+  background-color: transparent;
+  border-radius: 0; /* Ensure there's no rounding on the corners */
+  color: white;
+  caret-color: #fd7e14;
+}
+
+#fs-frm-inputs input::placeholder,
+#fs-frm-inputs textarea::placeholder {
+  color: white;
 }
 
 .project-container {

@@ -21,38 +21,7 @@ document.getElementById('copy-icon').addEventListener('click', function() {
 });
 
 
-document.getElementById('btn-CTA').addEventListener('click', function(){
-    const email = 'hanifahali2015@yahoo.com';
-    const subject = 'Front-end Engineer Interview';
-    const body = 'Hello Hanifah';
 
-   
-    const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-
-    window.location.href = mailtoLink;
-});
-
-document.getElementById('btn-CTA1').addEventListener('click', function(){
-    const email = 'hanifahali2015@yahoo.com';
-    const subject = 'Front-end Engineer Interview';
-    const body = 'Hello Hanifah';
-
-   
-    const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-
-    window.location.href = mailtoLink;
-});
-
-document.getElementById('Gmail').addEventListener('click', function(){
-    const email = 'hanifahali2015@gmail.com';
-    const subject = 'Front-end Engineer Interview';
-    const body = 'Hello Hanifah';
-
-   
-    const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-
-    window.location.href = mailtoLink;
-});
 
 
 document.getElementById('resume').addEventListener('click', function() {
@@ -63,5 +32,17 @@ document.getElementById('resume1').addEventListener('click', function() {
 });
 
 document.getElementById('Github').addEventListener('click', function() {
-    window.open('https://github.com/Thehanifah?tab=repositories');
+    window.open('https://github.com/Thehanifah');
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Code to hide or show the button when the page loads
+    const button = document.getElementById('btn-CTQ');
+    if (window.location.pathname === '/contact.html') {
+      button.style.display = 'none'; // Hide the button for this page
+    } else {
+      button.style.display = 'block'; // Show the button for other pages
+    }
+  });
+
+

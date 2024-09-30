@@ -24,6 +24,21 @@ color: $white;
     transition: 0.8s;
 }
 
+.btn-Submit{
+    padding: 0.8em 0.2em;
+    width: 10em;
+    border: 1px solid $secondary;
+    background-color: $secondary;
+    color: $white;
+    margin: auto;
+    transition: 0.8s;
+}
+
+
+.btn-Submit:hover{
+    color: white;
+    border: 1px solid white;
+}
 .btn-CTA:hover{
     color: white;
     border: 1px solid white;
