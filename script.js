@@ -25,10 +25,10 @@ document.getElementById('copy-icon').addEventListener('click', function() {
 
 
 document.getElementById('resume').addEventListener('click', function() {
-    window.open('https://drive.google.com/file/d/110uAUyNSmU73AWmr47qMyqBoPvatccHm/view?usp=sharing');
+    window.open('https://drive.google.com/file/d/1ERYguNoNMI-pVj2q_GAteqDXpWDmsW8H/view?usp=sharing');
 });
 document.getElementById('resume1').addEventListener('click', function() {
-    window.open('https://drive.google.com/file/d/110uAUyNSmU73AWmr47qMyqBoPvatccHm/view?usp=sharing');
+    window.open('https://drive.google.com/file/d/1ERYguNoNMI-pVj2q_GAteqDXpWDmsW8H/view?usp=sharing');
 });
 
 document.getElementById('Github').addEventListener('click', function() {
